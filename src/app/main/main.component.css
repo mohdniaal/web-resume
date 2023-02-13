@@ -1,0 +1,143 @@
+.main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(165, 245, 245), white);
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+
+}
+.contents{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.profile {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-image: url(../../assets/r2.jpg);
+    background-size: cover;
+    border-radius: 150px;
+    border: rgb(219, 216, 216) 7px solid;
+    transition: transform .2s;
+
+}
+
+.blogs {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid red;
+}
+
+.card img {
+    width: 260px;
+    height: 160px;
+
+}
+
+.parallax p {
+    font-size: smaller;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blog-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.blog-item {
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    background-color: #c5c1c198;
+    font-size: smaller;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(90, 88, 88);
+    border-radius: 20px;
+}
+
+.blog-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.blog-item img {
+    width: 290px;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.blog-content {
+    padding: 10px;
+}
+
+.blog-content * {
+    margin-top: 10px;
+}
+
+.blog-btn {
+    width: 80px;
+    padding: 10px;
+    background: #6c757d;
+    border-radius: 10px;
+}
+
+.blog-content p {
+    height: 100px;
+}
+
+.blog-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.blog-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-footer i {
+    align-items: center;
+    display: flex;
+}
