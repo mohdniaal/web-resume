@@ -1,5 +1,7 @@
 .main {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -17,9 +19,10 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgb(165, 245, 245), white);
+
 }
 
-.head-icons{
+.head-icons {
     font-size: larger;
 }
 
@@ -42,10 +45,67 @@
     overflow: hidden;
 
 }
-.contents{
+
+.aboutme {
+    position: relative;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.aboutme ul {
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(68, 67, 67);
+}
+
+.head {
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.subheading {
+    font-size: medium;
+    height: 40px;
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.parHead{
+    color: rgb(68, 67, 67);
+    font-size: medium;
+    height: 40px;
+}
+
+.services{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.contents {
     align-items: center;
     justify-content: center;
     display: flex;
+    height: 100vh;
 }
 
 .profile {
@@ -57,12 +117,12 @@
     border-radius: 150px;
     border: rgb(219, 216, 216) 7px solid;
     transition: transform .2s;
-
 }
 
 .blogs {
     margin-top: 30px;
     text-align: center;
+    height: 80vh;
 }
 
 .card {
