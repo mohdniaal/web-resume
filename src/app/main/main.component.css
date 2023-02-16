@@ -88,6 +88,12 @@
     height: 40px;
 }
 
+.c-head{
+    color: rgb(68, 67, 67);
+    font-size: medium;
+    height: 25px;
+}
+
 .services{
     position: relative;
     left: 0;
@@ -99,6 +105,24 @@
     align-items: center;
     font-family: 'Exo 2', sans-serif;
 
+}
+
+.ed{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+
+.education{
+    position: relative;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 600px;
+    font-family: 'Exo 2', sans-serif;
+    height: 40vh;
 }
 
 .contents {
